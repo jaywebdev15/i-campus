@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # RewriteBase should match the subfolder path
+  RewriteBase /projects/i-campus-management-system/
+
+  # If the file or directory exists, serve it
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  
+  # For SPA routing: Redirect all other requests to index.html
+  RewriteRule . index.html [L]
+</IfModule>

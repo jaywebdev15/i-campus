@@ -1,0 +1,88 @@
+--- ENROLLMENTS ---
+BSIT | College | 1st Year | 1st Semester
+BSIT | College | 1st Year | 2nd Semester
+TESDA_ICT101 | TESDA | Diploma Program | NA
+BSCS | College | 1st Year | 1st Semester
+BSCS | College | Diploma Program | 1st Semester
+BSIS | College | 2th Year | 1st Semester
+BSIT | College | 2nd Year | 2nd Semester
+BSIS | College | 3nd Year | 1st Semester
+BSIS | College | 4th Year | 2nd Semester
+BSIT | College | 4th Year | 2nd Semester
+BSIS | College | 3rd Year | 2nd Semester
+BSIS | College | 4st Year | 1st Semester
+BSCS | College | 4st Year | 1st Semester
+BSCS | College | 1nd Year | 1st Semester
+BSIS | College | 1rd Year | 1st Semester
+BSCS | College | 1th Year | 1st Semester
+BSIS | College | 2st Year | 2nd Semester
+BSIT | College | 4rd Year | 2nd Semester
+BSIS | College | 4th Year | 1st Semester
+BSCS | College | 3th Year | 1st Semester
+BSIS | College | 4rd Year | 1st Semester
+BSIT | College | 1nd Year | 1st Semester
+BSCS | College | 1st Year | 2nd Semester
+BSCS | College | 4th Year | 2nd Semester
+BSEMC | College | 2th Year | 2nd Semester
+BSCS | College | 4rd Year | 2nd Semester
+BSCS | College | 3nd Year | 1st Semester
+BSIT | College | 2th Year | 2nd Semester
+BSIT | College | 4nd Year | 1st Semester
+BSIT | College | 3th Year | 2nd Semester
+BSIT | College | 2st Year | 1st Semester
+BSEMC | College | 2th Year | 1st Semester
+BSIS | College | 3th Year | 1st Semester
+BSCS | College | 3rd Year | 1st Semester
+BSCS | College | 4nd Year | 1st Semester
+BSCS | College | 4th Year | 1st Semester
+BSEMC | College | 4th Year | 2nd Semester
+BSIS | College | 2rd Year | 2nd Semester
+BSIT | College | 3nd Year | 2nd Semester
+BSIS | College | 2rd Year | 1st Semester
+BSIT | College | 3th Year | 1st Semester
+BSEMC | College | 1st Year | 2nd Semester
+BSCS | College | 2rd Year | 1st Semester
+BSEMC | College | 2nd Year | 1st Semester
+BSCS | College | 2th Year | 2nd Semester
+BSIS | College | 3nd Year | 2nd Semester
+BSEMC | College | 2rd Year | 1st Semester
+BSEMC | College | 3th Year | 1st Semester
+BSIS | College | 2nd Year | 2nd Semester
+BSIT | College | 4nd Year | 2nd Semester
+BSEMC | College | 1st Year | 1st Semester
+BSEMC | College | 4nd Year | 1st Semester
+BSCS | College | 1th Year | 2nd Semester
+BSIS | College | 3st Year | 2nd Semester
+BSIT | College | 4th Year | 1st Semester
+BSCS | College | 3st Year | 1st Semester
+BSEMC | College | 1th Year | 1st Semester
+BSIS | College | 3st Year | 1st Semester
+BSEMC | College | 3st Year | 1st Semester
+BSIT | College | 3st Year | 2nd Semester
+BSCS | College | 4nd Year | 2nd Semester
+BSIT | College | 2rd Year | 2nd Semester
+BSIT | College | 1th Year | 1st Semester
+BSIT | College | 4st Year | 2nd Semester
+BSIS | College | 1th Year | 1st Semester
+BSIS | College | 1st Year | 1st Semester
+BSIT | College | 2nd Year | 1st Semester
+
+--- CURRICULUMS ---
+BSCS, CPE | College | 1st Year | 1st Semester
+BSCS | College | 1st Year | 1st Semester
+BSCS | College | 1st Year | 2nd Semester
+BSCS, BSBA, CPE, BSIT | College | 1st Year | 2nd Semester
+BSCS | College | 2nd Year | 1st Semester
+BSBA | College | 2nd Year | 1st Semester
+BSBA | College | 1st Year | 1st Semester
+BSIT | College | 2nd Year | 
+BSIT | College | 1st Year | 1st Semester
+BSIT | College | 1st Year | 2nd Semester
+BSIT | College | 2nd Year | 1st Semester
+BSIT | College | 2nd Year | 2nd Semester
+BSIT | College |  | 
+BSIT | College | 3rd Year | 1st Semester
+BSIT | College | 4th Year | 1st Semester
+BSIT | College | 4th Year | 2nd Semester
+BSIT | College | 3rd Year | 2nd Semester
+BSCS, BSBA | College | 1st Year | 1st Semester

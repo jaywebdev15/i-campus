@@ -1,0 +1,133 @@
+@import "tailwindcss";
+
+/* Button Gradient */
+.gradient-button {
+  position: relative;
+  overflow: hidden;
+}
+
+.gradient-button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, #00bfa6, #0a1653);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.gradient-button:hover::before {
+  opacity: 1;
+}
+
+/* Global Scrollbar Handling */
+body {
+  /* overflow: hidden; */ /* Prevent body scroll - Disabled for Landing Page */
+}
+
+/* Hide Scrollbar Utility */
+.hide-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Custom Scrollbar */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: #cbd5e1; /* gray-300 */
+  border-radius: 20px;
+}
+.dark .scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: #4b5563; /* gray-600 */
+}
+
+@media print {
+  article {
+    page-break-after: always;
+    break-after: page;
+  }
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fade-in {
+  animation: fadeIn 0.4s ease-out forwards;
+}
+.animate-fade-in-up {
+  animation: fadeInUp 0.5s ease-out forwards;
+}
+
+/* 3D Page Flip Utilities */
+.perspective-1000 {
+  perspective: 2000px;
+}
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+.backface-hidden {
+  backface-visibility: hidden;
+}
+.rotate-y-180 {
+  transform: rotateY(-180deg);
+}
+.rotate-y-0 {
+  transform: rotateY(0deg);
+}
+.origin-left {
+  transform-origin: left;
+}
+.origin-right {
+  transform-origin: right;
+}
+/* Duration for flip */
+.duration-800 {
+  transition-duration: 800ms;
+}
+
+@keyframes flipNext {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(-180deg);
+  }
+}
+@keyframes flipPrev {
+  from {
+    transform: rotateY(-180deg);
+  }
+  to {
+    transform: rotateY(0deg);
+  }
+}
+.animate-flip-next {
+  animation: flipNext 0.8s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+}
+.animate-flip-prev {
+  animation: flipPrev 0.8s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
+}

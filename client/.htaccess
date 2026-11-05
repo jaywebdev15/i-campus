@@ -1,0 +1,17 @@
+RewriteEngine On
+RewriteBase /projects/school-management/
+
+# If request is for the server directory, serve it directly
+RewriteRule ^server/ - [L]
+
+# If the file exists in dist/, serve it from there
+RewriteCond %{DOCUMENT_ROOT}/projects/school-management/dist/$1 -f
+RewriteRule ^(.+)$ dist/$1 [L]
+
+# For everything else (SPA routes), serve dist/index.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ dist/index.html [L]
+
+# If no specific file is requested (root), serve dist/index.html
+DirectoryIndex dist/index.html
